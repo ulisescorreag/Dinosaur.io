@@ -421,7 +421,7 @@
         ];
 
         let playerStats = {
-            playerName: "RexMaster",
+            playerName: "",
             coins: 0, 
             selectedDino: 0,
             unlocked: [true, false, false, false],
@@ -456,7 +456,7 @@
 
         // --- MULTIPLAYER WEBSOCKET ---
         // En GitHub Pages usa wss://. Después de desplegar server.js en Render, coloca aquí su URL pública.
-        const ONLINE_SERVER_URL = 'wss://TU-SERVICIO-EN-RENDER.onrender.com';
+        const ONLINE_SERVER_URL = 'wss://dinosaur-online-server.onrender.com';
         let onlineSocket = null;
         let onlineMode = false;
         let onlineRoom = '';
